@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004796-blue)](https://doi.org/10.82901/nemar.on004796)
+
 ## A Polish Electroencephalography, Alzheimer’s Risk-genes, Lifestyle and Neuroimaging (PEARL-Neuro) Database 
 
 IMPORTANT NOTE: The dataset contains no errors (BIDS-1). The numerous warnings currently displayed are a result of OpenNeuro updating its validator to BIDS-2. The OpenNeuro team is actively working on refining the validator to display only meaningful warnings (more information on OpenNeuro GitHub page). At this time, as dataset owners, we are unable to take any action to resolve these warnings.
