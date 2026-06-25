@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "A Polish Electroencephalography, Alzheimer’s Risk-genes, Lifestyle and Neuroimaging (PEARL-Neuro) Database",
   "description": "The PEARL-Neuro Database comprises neuroimaging and genetic data from 192 healthy middle-aged individuals (50-63 years) enriched for dementia risk factors. The dataset includes apolipoprotein E and PICALM genotypes, psychometric assessments, and a neuroimaging subgroup (N=79) with resting-state and task-based EEG and fMRI data acquired during cognitive tasks and rest conditions, along with clinical blood biomarkers.",
-  "methods_description": "Data collection included genetic analysis (APOE and PICALM polymorphisms), psychometric testing (memory, intelligence, mood, personality, stress coping), and neuroimaging protocols. The neuroimaging subgroup underwent EEG and fMRI acquisition during resting-state conditions (eyes open and eyes closed) and cognitive tasks (multi-source interference task and Sternberg's memory task). Blood samples were analyzed for hematological parameters, lipid profiles, and HSV serology.",
+  "methods_description": "Data collection included genetic analysis (APOE and PICALM polymorphisms), psychometric testing (memory, intelligence, mood, personality, stress coping), and neuroimaging protocols. The neuroimaging subgroup underwent EEG and fMRI acquisition during resting-state conditions (eyes open and eyes closed) and cognitive tasks (multi-source interference task and Sternberg's memory task). Blood tests included complete blood count, lipid profile, and HSV serology.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
