@@ -1,19 +1,39 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "A Polish Electroencephalography, Alzheimer’s Risk-genes, Lifestyle and Neuroimaging (PEARL-Neuro) Database",
+  "description": "The PEARL-Neuro Database comprises neuroimaging and genetic data from 192 healthy middle-aged individuals (50-63 years) enriched for dementia risk factors. The dataset includes apolipoprotein E and PICALM genotypes, psychometric assessments, and a neuroimaging subgroup (N=79) with resting-state and task-based EEG and fMRI data acquired during cognitive tasks and rest conditions, along with clinical blood biomarkers.",
+  "methods_description": "Data collection included genetic analysis (APOE and PICALM polymorphisms), psychometric testing (memory, intelligence, mood, personality, stress coping), and neuroimaging protocols. The neuroimaging subgroup underwent EEG and fMRI acquisition during resting-state conditions (eyes open and eyes closed) and cognitive tasks (multi-source interference task and Sternberg's memory task). Blood samples were analyzed for hematological parameters, lipid profiles, and HSV serology.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Dzianok Patrycja": {},
     "Kublik Ewa": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004796.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "Alzheimer's disease risk"
+    },
+    {
+      "term": "APOE genotype"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "cognitive tasks"
+    },
+    {
+      "term": "middle-aged adults"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004796",
       "identifier_type": "URL",
@@ -28,6 +48,11 @@
       "identifier": "10.1038/s41597-024-03106-5",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004796.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -36,13 +61,13 @@
       "award_number": "2018/31/N/HS6/03551"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg",
     "func"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "257.9 GB (1701 files)"
   ],
   "formats": [
     ".eeg",
@@ -53,65 +78,8 @@
     ".tsv",
     ".txt",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "The PEARL-Neuro Database (version 1.1.0) comprises multimodal neuroimaging and genetic data from 192 healthy middle-aged individuals (50-63 years) at risk for dementia, with a neuroimaging subgroup of 79 participants. The dataset includes resting-state and task-based electroencephalography (EEG) and functional magnetic resonance imaging (fMRI), genetic polymorphisms (APOE and PICALM), psychometric assessments, and clinical blood biomarkers. This version includes marker corrections in EEG resting-state files (.tsv and .vmrk) to ensure consistency with the published Data Note, addressing missing starting markers for eyes-open and eyes-closed conditions in the resting-state protocol for 21 participants.",
-  "methods_description": "EEG and fMRI data were acquired during resting-state protocols (eyes open and eyes closed) and cognitive tasks (multi-source interference task and Sternberg's memory task). Genetic analysis included APOE and PICALM polymorphisms. Psychometric assessments evaluated memory, intelligence, mood, personality, and stress coping strategies. Blood tests included complete blood count, lipid profile, and HSV serology.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "fMRI"
-    },
-    {
-      "term": "Alzheimer's disease risk"
-    },
-    {
-      "term": "APOE polymorphism"
-    },
-    {
-      "term": "PICALM polymorphism"
-    },
-    {
-      "term": "cognitive aging"
-    },
-    {
-      "term": "dementia risk"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "psychometric assessment"
-    },
-    {
-      "term": "blood biomarkers"
-    },
-    {
-      "term": "middle-aged"
-    },
-    {
-      "term": "aging"
-    },
-    {
-      "term": "genetic polymorphism"
-    },
-    {
-      "term": "MSIT"
-    },
-    {
-      "term": "Sternberg memory task"
-    },
-    {
-      "term": "Poland"
-    },
-    {
-      "term": "Polish population"
-    }
-  ],
-  "source_hash": "3cf829fab79bdb09308e433f23785e18d4b65740880532b6c4a849c78989e367"
+  "source_hash": "22500c15df1ee6ce1e75fd019948ac824f615efe5cdd0ca1b93befe523dde76b"
 }
