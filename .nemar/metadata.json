@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A Polish Electroencephalography, Alzheimer’s Risk-genes, Lifestyle and Neuroimaging (PEARL-Neuro) Database",
-  "description": "The PEARL-Neuro Database comprises neuroimaging and genetic data from 192 healthy middle-aged individuals (50-63 years) enriched for dementia risk factors. The dataset includes apolipoprotein E and PICALM genotypes, psychometric assessments, and a neuroimaging subgroup (N=79) with resting-state and task-based EEG and fMRI data acquired during cognitive tasks and rest conditions, along with clinical blood biomarkers.",
-  "methods_description": "Data collection included genetic analysis (APOE and PICALM polymorphisms), psychometric testing (memory, intelligence, mood, personality, stress coping), and neuroimaging protocols. The neuroimaging subgroup underwent EEG and fMRI acquisition during resting-state conditions (eyes open and eyes closed) and cognitive tasks (multi-source interference task and Sternberg's memory task). Blood tests included complete blood count, lipid profile, and HSV serology.",
+  "description": "The PEARL-Neuro Database contains EEG, fMRI, genetic, health, and lifestyle data from 192 healthy middle-aged (50-63) Polish individuals at risk of Alzheimer's disease, based on APOE and PICALM genotypes. A subgroup of 79 participants also underwent neuroimaging (EEG and fMRI) during resting-state and cognitive task protocols (multi-source interference task and Sternberg's memory task), alongside blood test data. The dataset aims to support research on genetic, lifestyle, and neuroimaging correlates of dementia risk in middle-aged adults.",
+  "methods_description": "Data were collected via EEG and fMRI during resting-state protocols (eyes open and eyes closed conditions) and cognitive tasks (multi-source interference task and Sternberg's memory task). Genetic data (APOE, PICALM) and psychometric assessments (memory, intelligence, mood, personality, stress coping) were also obtained, alongside blood tests (blood count, lipid profile, HSV virus).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,10 +18,19 @@
       "term": "fMRI"
     },
     {
-      "term": "Alzheimer's disease risk"
+      "term": "Alzheimer Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000544"
     },
     {
-      "term": "APOE genotype"
+      "term": "Apolipoproteins E",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001057"
+    },
+    {
+      "term": "Genetics",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005823"
     },
     {
       "term": "resting-state"
@@ -30,17 +39,15 @@
       "term": "cognitive tasks"
     },
     {
-      "term": "middle-aged adults"
+      "term": "Middle Aged",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008875"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004796",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004796",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -53,11 +60,16 @@
       "identifier": "10.18112/openneuro.ds004796.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004796",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "Polish National Science Center",
+      "funder_name": "Polish National Science Center (NCN)",
       "award_number": "2018/31/N/HS6/03551"
     }
   ],
