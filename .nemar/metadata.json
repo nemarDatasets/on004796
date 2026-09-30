@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "A Polish Electroencephalography, Alzheimer’s Risk-genes, Lifestyle and Neuroimaging (PEARL-Neuro) Database",
-  "description": "The PEARL-Neuro Database contains EEG, fMRI, genetic, health, and lifestyle data from 192 healthy middle-aged (50-63) Polish individuals at risk of Alzheimer's disease, based on APOE and PICALM genotypes. A subgroup of 79 participants also underwent neuroimaging (EEG and fMRI) during resting-state and cognitive task protocols (multi-source interference task and Sternberg's memory task), alongside blood test data. The dataset aims to support research on genetic, lifestyle, and neuroimaging correlates of dementia risk in middle-aged adults.",
-  "methods_description": "Data were collected via EEG and fMRI during resting-state protocols (eyes open and eyes closed conditions) and cognitive tasks (multi-source interference task and Sternberg's memory task). Genetic data (APOE, PICALM) and psychometric assessments (memory, intelligence, mood, personality, stress coping) were also obtained, alongside blood tests (blood count, lipid profile, HSV virus).",
+  "description": "PEARL-Neuro is a multimodal database of healthy middle-aged (50-63 years) Polish adults at risk of dementia. It includes genetic data (APOE, PICALM) for 192 participants, along with demographic, health, lifestyle and psychometric measures. A subgroup of 79 participants also has EEG and fMRI recordings during resting-state (eyes open and eyes closed) and cognitive tasks (multi-source interference task, Sternberg memory task), plus blood test data.",
+  "methods_description": "Resting-state EEG and fMRI were recorded with eyes-open and eyes-closed conditions, along with the multi-source interference task and Sternberg memory task. Participants were genotyped for APOE and PICALM, and completed psychometric assessments of memory, intelligence, mood, personality and stress coping. Blood tests were also collected.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -28,21 +28,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D001057"
     },
     {
-      "term": "Genetics",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005823"
+      "term": "resting state"
     },
     {
-      "term": "resting-state"
+      "term": "middle-aged adults"
     },
     {
-      "term": "cognitive tasks"
-    },
-    {
-      "term": "Middle Aged",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008875"
+      "term": "lifestyle"
     }
   ],
   "related_identifiers": [
@@ -79,7 +71,7 @@
     "func"
   ],
   "sizes": [
-    "257.9 GB (1701 files)"
+    "240 GB (1701 files)"
   ],
   "formats": [
     ".eeg",
